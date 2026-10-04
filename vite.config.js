@@ -1,8 +1,6 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-  server: {
-    host: true,
-    allowedHosts: true
-  }
-});
+  base: '/zone-movie/', // حتماً این خط رو اضافه کنید
+  // اگر کدهای دیگه‌ای اینجاست دست نزنید
+})
